@@ -1,7 +1,7 @@
 
-public class SubArraySum {
+public class SubArrayWithGivenSum {
 
-	public static void subArraySum(int[] a, int sum) {
+	public static void subArrayWithGivenSum(int[] a, int sum) {
 
 		int temp_sum = a[0], start_index = 0;
 		boolean found = false;
@@ -31,7 +31,7 @@ public class SubArraySum {
 	public static void main(String args[]) {
 		int a[] = { 15, 2, 4, 8, 9, 5, 10, 23 };
 		int sum = 0;
-		subArraySum(a, sum);
+		subArrayWithGivenSum(a, sum);
 
 	}
 
