@@ -1,7 +1,12 @@
 import java.util.Arrays;
 
 
-//Complexity O(n)
+
+/**
+ * Build Heap Complexity: O(n)
+ * Get Max Element Complexity: O(1)
+ *
+ */
 public class MaxHeap {
 
 	public static void build_heap(int[] a) {
