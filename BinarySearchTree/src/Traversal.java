@@ -1,5 +1,8 @@
 
-// Inorder, PreOrder and PostOrder Tree Traversal (Complexity: O(n))
+/**
+ * Inorder, PreOrder and PostOrder Tree Traversal (Complexity: O(n))
+ *
+ */
 public class Traversal {
 
 	public static void inorderTraversal(Node root) {
