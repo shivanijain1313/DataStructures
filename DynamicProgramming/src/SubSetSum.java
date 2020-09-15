@@ -5,7 +5,7 @@ public class SubSetSum {
 		int set[] = { 3, 34, 4, 12, 5, 2 };
 		int sum = 7;
 		int n = set.length;
-		if (isSubsetSum(set, n, sum) == true)
+		if (isSubsetSum(set, n, sum))
 			System.out.println("Found a subset with given sum");
 		else
 			System.out.println("No subset with given sum");

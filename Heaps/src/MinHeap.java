@@ -23,6 +23,7 @@ public class MinHeap {
 			int temp = a[smallest];
 			a[smallest] = a[i];
 			a[i] = temp;
+			min_heapify(smallest, a);
 		}
 
 	}
